@@ -1,0 +1,390 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppPlugin\\LaGranAppPlugin.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppBLL\\LaGranAppBLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppBLL\\LaGranAppBLL.csproj",
+        "projectName": "LaGranAppBLL",
+        "projectPath": "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppBLL\\LaGranAppBLL.csproj",
+        "packagesPath": "C:\\Users\\jgcue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppBLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jgcue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppDAL\\LaGranAppDAL.csproj": {
+                "projectPath": "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppDAL\\LaGranAppDAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppCAS\\LaGranAppCAS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppCAS\\LaGranAppCAS.csproj",
+        "projectName": "LaGranAppCAS",
+        "projectPath": "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppCAS\\LaGranAppCAS.csproj",
+        "packagesPath": "C:\\Users\\jgcue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppCAS\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jgcue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppBLL\\LaGranAppBLL.csproj": {
+                "projectPath": "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppBLL\\LaGranAppBLL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppDAL\\LaGranAppDAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppDAL\\LaGranAppDAL.csproj",
+        "projectName": "LaGranAppDAL",
+        "projectPath": "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppDAL\\LaGranAppDAL.csproj",
+        "packagesPath": "C:\\Users\\jgcue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jgcue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppPlugin\\LaGranAppPlugin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppPlugin\\LaGranAppPlugin.csproj",
+        "projectName": "LaGranAppPlugin",
+        "projectPath": "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppPlugin\\LaGranAppPlugin.csproj",
+        "packagesPath": "C:\\Users\\jgcue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppPlugin\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jgcue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppUI\\LaGranAppUI.csproj": {
+                "projectPath": "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppUI\\LaGranAppUI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppUI\\LaGranAppUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppUI\\LaGranAppUI.csproj",
+        "projectName": "LaGranAppUI",
+        "projectPath": "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppUI\\LaGranAppUI.csproj",
+        "packagesPath": "C:\\Users\\jgcue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jgcue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppBLL\\LaGranAppBLL.csproj": {
+                "projectPath": "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppBLL\\LaGranAppBLL.csproj"
+              },
+              "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppCAS\\LaGranAppCAS.csproj": {
+                "projectPath": "C:\\Users\\jgcue\\source\\repos\\LaGranApp\\LaGranAppCAS\\LaGranAppCAS.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "ControlzEx": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            },
+            "Dragablz.NetCore": {
+              "target": "Package",
+              "version": "[0.3.3, )"
+            },
+            "MahApps.Metro": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[1.2.7, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "MaterialDesignThemes.MahApps": {
+              "target": "Package",
+              "version": "[0.1.5, )"
+            },
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.19, )"
+            },
+            "System.Windows.Interactivity.WPF": {
+              "target": "Package",
+              "version": "[2.0.20525, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

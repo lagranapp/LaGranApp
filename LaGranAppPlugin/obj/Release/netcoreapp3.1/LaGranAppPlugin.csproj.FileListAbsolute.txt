@@ -1,0 +1,4 @@
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppPlugin\obj\Release\netcoreapp3.1\LaGranAppPlugin.csprojAssemblyReference.cache
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppPlugin\obj\Release\netcoreapp3.1\LaGranAppPlugin.AssemblyInfoInputs.cache
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppPlugin\obj\Release\netcoreapp3.1\LaGranAppPlugin.AssemblyInfo.cs
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppPlugin\obj\Release\netcoreapp3.1\LaGranAppPlugin.csproj.CoreCompileInputs.cache

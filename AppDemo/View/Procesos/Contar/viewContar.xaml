@@ -1,0 +1,28 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AppDemo.View.Procesos.Contar"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
+             xmlns:CRUDButtons="clr-namespace:LaGranAppUI.View.CRUDButtons;assembly=LaGranAppUI" x:Class="AppDemo.View.Procesos.Contar.viewContar"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>            
+            <ColumnDefinition Width="*"/>            
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="auto"/>            
+            <RowDefinition Height="*"/>            
+        </Grid.RowDefinitions>
+        <CRUDButtons:viewCRUDButtons HorizontalAlignment="Left" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" CRUDCommand="{Binding Command}"/>
+        <TextBlock Grid.Column="0" Grid.Row="2" FontWeight="Bold" Margin="20,0,0,0" ><Run Text="Contador"/></TextBlock>
+        <TextBox Grid.Column="1" Grid.Row="2" materialDesign:TextFieldAssist.TextBoxViewMargin="0"  MinWidth="200" Text="{Binding Contador}" IsReadOnly="True" Margin="20,0,0,0" />
+    </Grid>
+</UserControl>

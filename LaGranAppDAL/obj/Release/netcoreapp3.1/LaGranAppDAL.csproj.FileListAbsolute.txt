@@ -1,0 +1,14 @@
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppDAL\bin\Release\netcoreapp3.1\LaGranAppDAL.deps.json
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppDAL\bin\Release\netcoreapp3.1\LaGranAppDAL.runtimeconfig.json
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppDAL\bin\Release\netcoreapp3.1\LaGranAppDAL.runtimeconfig.dev.json
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppDAL\bin\Release\netcoreapp3.1\LaGranAppDAL.dll
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppDAL\bin\Release\netcoreapp3.1\LaGranAppDAL.pdb
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppDAL\obj\Release\netcoreapp3.1\LaGranAppDAL.Version.SQLite.Db1.resources
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppDAL\obj\Release\netcoreapp3.1\LaGranAppDAL.csproj.GenerateResource.cache
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppDAL\obj\Release\netcoreapp3.1\LaGranAppDAL.AssemblyInfoInputs.cache
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppDAL\obj\Release\netcoreapp3.1\LaGranAppDAL.AssemblyInfo.cs
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppDAL\obj\Release\netcoreapp3.1\LaGranAppDAL.csproj.CoreCompileInputs.cache
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppDAL\obj\Release\netcoreapp3.1\LaGranAppDAL.dll
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppDAL\obj\Release\netcoreapp3.1\LaGranAppDAL.pdb
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppDAL\obj\Release\netcoreapp3.1\LaGranAppDAL.genruntimeconfig.cache
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppDAL\obj\Release\netcoreapp3.1\LaGranAppDAL.csprojAssemblyReference.cache

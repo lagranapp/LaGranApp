@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="View\Mantenimiento\Bitacora\viewMantBitacora.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Mantenimiento\MenuRoles\viewMenuRoles.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Mantenimiento\Usuarios\viewUsuariosList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Procesos\Contar\viewContar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="View\Mantenimiento\Bitacora\viewMantBitacora.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Mantenimiento\MenuRoles\viewMenuRoles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Mantenimiento\Usuarios\viewUsuariosList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Procesos\Contar\viewContar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

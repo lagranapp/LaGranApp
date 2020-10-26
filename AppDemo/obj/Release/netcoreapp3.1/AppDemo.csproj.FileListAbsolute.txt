@@ -1,0 +1,4 @@
+C:\Users\jgcue\source\repos\LaGranApp\AppDemo\obj\Release\netcoreapp3.1\AppDemo.csprojAssemblyReference.cache
+C:\Users\jgcue\source\repos\LaGranApp\AppDemo\obj\Release\netcoreapp3.1\View\Mantenimiento\Usuarios\viewUsuarios.g.cs
+C:\Users\jgcue\source\repos\LaGranApp\AppDemo\obj\Release\netcoreapp3.1\AppDemo_MarkupCompile.cache
+C:\Users\jgcue\source\repos\LaGranApp\AppDemo\obj\Release\netcoreapp3.1\AppDemo_MarkupCompile.lref

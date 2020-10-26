@@ -1,0 +1,14 @@
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppCAS\bin\Release\netcoreapp3.1\LaGranAppCAS.deps.json
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppCAS\bin\Release\netcoreapp3.1\LaGranAppCAS.dll
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppCAS\bin\Release\netcoreapp3.1\LaGranAppCAS.pdb
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppCAS\bin\Release\netcoreapp3.1\LaGranAppBLL.dll
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppCAS\bin\Release\netcoreapp3.1\LaGranAppDAL.dll
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppCAS\bin\Release\netcoreapp3.1\LaGranAppBLL.pdb
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppCAS\bin\Release\netcoreapp3.1\LaGranAppDAL.pdb
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppCAS\obj\Release\netcoreapp3.1\LaGranAppCAS.csprojAssemblyReference.cache
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppCAS\obj\Release\netcoreapp3.1\LaGranAppCAS.AssemblyInfoInputs.cache
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppCAS\obj\Release\netcoreapp3.1\LaGranAppCAS.AssemblyInfo.cs
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppCAS\obj\Release\netcoreapp3.1\LaGranAppCAS.csproj.CoreCompileInputs.cache
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppCAS\obj\Release\netcoreapp3.1\LaGranAppCAS.csproj.CopyComplete
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppCAS\obj\Release\netcoreapp3.1\LaGranAppCAS.dll
+C:\Users\jgcue\source\repos\LaGranApp\LaGranAppCAS\obj\Release\netcoreapp3.1\LaGranAppCAS.pdb

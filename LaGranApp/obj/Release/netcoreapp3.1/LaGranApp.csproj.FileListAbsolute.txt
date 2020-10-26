@@ -1,0 +1,6 @@
+C:\Users\jgcue\source\repos\LaGranApp\LaGranApp\obj\Release\netcoreapp3.1\LaGranApp.csprojAssemblyReference.cache
+C:\Users\jgcue\source\repos\LaGranApp\LaGranApp\obj\Release\netcoreapp3.1\View\Login\viewLogin.g.cs
+C:\Users\jgcue\source\repos\LaGranApp\LaGranApp\obj\Release\netcoreapp3.1\App.g.cs
+C:\Users\jgcue\source\repos\LaGranApp\LaGranApp\obj\Release\netcoreapp3.1\LaGranApp_Content.g.cs
+C:\Users\jgcue\source\repos\LaGranApp\LaGranApp\obj\Release\netcoreapp3.1\LaGranApp_MarkupCompile.cache
+C:\Users\jgcue\source\repos\LaGranApp\LaGranApp\obj\Release\netcoreapp3.1\LaGranApp_MarkupCompile.lref

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="View\CRUDButtons\viewCRUDButtons.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\CRUDButtons\viewCRUDButtonsList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Modulos\Bitacora\viewBitacora.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Modulos\MenuRoles\viewMenuRoles.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Modulos\Usuarios\viewUsuarios.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Modulos\Usuarios\viewUsuariosList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Pager\viewPagerButtons.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Snackbar\viewSnackBar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Window\viewWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="View\CRUDButtons\viewCRUDButtons.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\CRUDButtons\viewCRUDButtonsList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Modulos\Bitacora\viewBitacora.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Modulos\MenuRoles\viewMenuRoles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Modulos\Usuarios\viewUsuarios.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Modulos\Usuarios\viewUsuariosList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Pager\viewPagerButtons.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Snackbar\viewSnackBar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Window\viewWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
