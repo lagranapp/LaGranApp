@@ -1,4 +1,4 @@
-### Hi there 👋
+LAGRAN APP, es un marco de trabajo libre para programadores de la plataforma .NET El objetivo de este marco de trabajo, es brindar una base para agilizar el desarrollo de aplicaciones basadas en .NET Core WPF.
 
 <!--
 **lagranapp/LaGranApp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
