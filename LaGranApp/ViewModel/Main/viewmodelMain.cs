@@ -223,7 +223,7 @@ namespace LaGranApp.ViewModel.Main
             {
                 _plugins = PluginLoader<IPlugin>.LoadPlugins(Directory.GetCurrentDirectory() + "\\plugins");
 
-                if (_plugins != null)
+                if (_plugins.Count >0)
                 {
 
                     if (_plugins.Count >1)
@@ -284,6 +284,11 @@ namespace LaGranApp.ViewModel.Main
                     if (Usuarios.List(_oPlugin.AppId).Count > 0)
                     {
                         Login();
+                    }
+                    else
+                    {
+                        MenuItems = _oPlugin.AppMenu;
+                        ActivaMenuItem(MenuItems);
                     }
                 }
                 
@@ -363,15 +368,13 @@ namespace LaGranApp.ViewModel.Main
                         AppTitle = string.Empty;
                         AppIcon = PackIconKind.Apps;
                         _IHostBuilder = null;
-                        _IHost = null;
-                        MenuItems.Clear();// = null;
+                        _IHost = null;                        
+                        MenuItems.Clear();                        
                         Tabs.Clear();
                         HostingServices();
                         Loader();
                         var mnuMain = Application.Current.MainWindow.FindChild<Menu>("mnuMain");
-                        mnuMain.Items.Refresh();
-                        //var tabMain = Application.Current.MainWindow.FindChild<Dragablz.TabablzControl>("tabMain");
-                        //tabMain.Items.Refresh();
+                        mnuMain.Items.Refresh();                        
                         break;
                     case 3:
                         Application.Current.MainWindow.Close();
@@ -407,6 +410,23 @@ namespace LaGranApp.ViewModel.Main
                     }
                 }
 
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
+        private void ActivaMenuItem(ObservableCollection<modelMenuItem> oMenuItem)
+        {
+            try
+            {
+                foreach (var omnuItem in oMenuItem)
+                {
+                    omnuItem.Visible = Visibility.Visible;
+                    if (omnuItem.MenuItems != null) ActivaMenuItem(omnuItem.MenuItems);
+                    
+                }
             }
             catch
             {
