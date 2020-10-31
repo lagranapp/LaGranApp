@@ -1,6 +1,7 @@
 LAGRAN APP, es un marco de trabajo libre para programadores de la plataforma .NET El objetivo de este marco de trabajo, es brindar una base para agilizar el desarrollo de aplicaciones basadas en .NET Core WPF.
 
 <h1>Video de introducción</h1><hr/>
+
 [![LAGRAN APP INTRO](https://img.youtube.com/vi/KMvHTosBSOg/0.jpg)](https://www.youtube.com/watch?v=KMvHTosBSOg)
 
 <!--
