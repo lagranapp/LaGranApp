@@ -6,7 +6,7 @@ LAGRAN APP, es un marco de trabajo libre para programadores de la plataforma .NE
 
 
 <h1>Facebook</h1><hr/>
-Lagran app
+Siguenos en Facebook bajo el nombre: Lagran app
 <!--
 **lagranapp/LaGranApp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
