@@ -5,6 +5,7 @@ LAGRAN APP, es un marco de trabajo libre para programadores de la plataforma .NE
 [![LAGRAN APP INTRO](https://img.youtube.com/vi/KMvHTosBSOg/0.jpg)](https://www.youtube.com/watch?v=KMvHTosBSOg)
 
 <h1>Episodio 2 -Como crear un plugin para LaGran App</h1><hr/>
+
 [![LAGRAN APP INTRO](https://img.youtube.com/vi/JfFy2FNlkXU/0.jpg)](https://www.youtube.com/watch?v=JfFy2FNlkXU)
 
 <h1>Facebook</h1><hr/>
