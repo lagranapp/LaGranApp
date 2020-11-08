@@ -28,7 +28,7 @@ LAGRAN APP, es un marco de trabajo libre para programadores de la plataforma .NE
 </ul>
 <p>&nbsp;</p>
 <ul>
-<li>AppDemo: Proyecto de tipo WPF User Control. Ejemplo de como crear nuestro propio plugin. Se sugiere que las aplicaciones que se desarrollen sean de este tipo (plugin).</li>
+<li>AppDemo: Proyecto de tipo WPF User Control. Ejemplo de como crear nuestro propio plugin. Se sugiere que las aplicaciones que desarrollemos sean de este tipo (plugin).</li>
 </ul>
 
 <h1>Episodio 1 -Video de introducción</h1><hr/>
