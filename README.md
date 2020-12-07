@@ -51,6 +51,11 @@ certmgr.msc
 </ul>
 <p>&nbsp;</p>
 <ul>
+<li>LAGRANAPPSLY: Proyecto de tipo ASP.NET Core Web Api. Capa de comunicación entre la capa de UI y la BLL (En construcción).</li>
+</ul>
+
+<p>&nbsp;</p>
+<ul>
 <li>AppDemo: Proyecto de tipo WPF User Control. Ejemplo de como crear nuestro propio plugin. Se sugiere que las aplicaciones que desarrollemos sean de este tipo (plugin).</li>
 </ul>
 
