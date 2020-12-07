@@ -39,6 +39,9 @@ using LaGranApp.View.Loader;
 using LaGranApp.ViewModel.Loader;
 using LaGranApp.Model.Tabs;
 using MahApps.Metro.Controls;
+using LaGranAppUI.View.Window;
+using LaGranApp.View.Activacion;
+using LaGranApp.ViewModel.Activacion;
 
 namespace LaGranApp.ViewModel.Main
 {
@@ -196,7 +199,7 @@ namespace LaGranApp.ViewModel.Main
 
                 #region "PLUGIN"
                 services.AddSingleton<IPlugin, Plugin>();
-
+                services.AddSingleton<IProcessLicense, ProcessLicense>();
                 #endregion
 
                 #region "PRESENTATION"                
@@ -206,6 +209,7 @@ namespace LaGranApp.ViewModel.Main
                 services.AddTransient<IviewmodelMenuRoles, viewmodelMenuRoles>();
                 services.AddSingleton<IviewmodelSnackbar, viewmodelSnackbar>();
                 services.AddTransient<IviewmodelBitacora, viewmodelBitacora>();
+                services.AddTransient<IviewmodelActivacion, viewmodelActivacion>();
                 #endregion
 
 
@@ -258,7 +262,7 @@ namespace LaGranApp.ViewModel.Main
                 _oPlugin.AppIHostBuilder = _IHostBuilder;
                 _IHost = _IHostBuilder.Build();                
                 _oPlugin.AppIHost = _IHost;
-                #region "copia de plugin para injectar en las instancias"  
+                #region "copia de plugin para inyectar en las instancias"  
                 var _Plugin = ActivatorUtilities.CreateInstance<LaGranAppCAS.Helpers.Plugin>(_IHost.Services);
                 _Plugin.AppIco = _oPlugin.AppIco;
                 if(_oPlugin.AppId!=null)_Plugin.AppId = _oPlugin.AppId;
@@ -273,7 +277,13 @@ namespace LaGranApp.ViewModel.Main
 
                 if (_oPlugin.AppReqLicense)
                 {
+                    if (Licencia() != QLicense.LicenseStatus.VALID)
+                    {
+                        var SnackBar = ActivatorUtilities.CreateInstance<viewmodelSnackbar>(_IHost.Services);
+                        SnackBar.Message = "Licencia invalida. Favor cierre y vuelva abrir la aplicación e intente con una nueva licencia.";
+                        return;
 
+                    }
                 }
                 
                 if (_oPlugin.AppReqMantUsuarios)
@@ -335,6 +345,41 @@ namespace LaGranApp.ViewModel.Main
             }
         }
         #endregion
+
+        #region "LICENCIA"
+
+        private QLicense.LicenseStatus Licencia()
+        {
+            try
+            {                
+                var LicProcess = ActivatorUtilities.CreateInstance<ProcessLicense>(_IHost.Services);
+                QLicense.AppName.AppNombre = _oPlugin.AppNombre;
+                var Estatus = LicProcess.Process();
+                if (Estatus!= QLicense.LicenseStatus.VALID)
+                { 
+                    viewActivacion viewLicencia = new viewActivacion();
+                    var vmActivacion = ActivatorUtilities.CreateInstance<viewmodelActivacion>(_IHost.Services);
+                    vmActivacion.AppName = _oPlugin.AppNombre;
+                    vmActivacion.AppLicFileName = _oPlugin.AppLicFileName;
+                    vmActivacion.AppLicense = _oPlugin.AppLicense;
+                    viewLicencia.DataContext = vmActivacion;
+                    viewLicencia.Owner = Application.Current.MainWindow;
+                    viewLicencia.ShowDialog();
+                    Estatus = vmActivacion.LICENSESTATUS;
+                }
+                return Estatus;
+                
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
+        #endregion
+
+
+
 
         #region "TABS"
         private void ms_AddTab(int ID, string mnuMenu)

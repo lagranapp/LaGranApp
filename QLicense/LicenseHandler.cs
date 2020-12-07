@@ -71,7 +71,9 @@ namespace QLicense
             {
                 //Get RSA key from certificate
                 X509Certificate2 cert = new X509Certificate2(certPubKeyData);
-                RSACryptoServiceProvider rsaKey = (RSACryptoServiceProvider)cert.PublicKey.Key;
+                //RSACryptoServiceProvider rsaKey = (RSACryptoServiceProvider)cert.PublicKey.Key;
+                //RSACryptoServiceProvider rsaKey = (RSACryptoServiceProvider)cert.PublicKey.Key ;
+                RSA rsaKey = (RSA)cert.PublicKey.Key;
 
                 XmlDocument xmlDoc = new XmlDocument();
 
@@ -101,7 +103,7 @@ namespace QLicense
                     licStatus = LicenseStatus.INVALID;
                 }
             }
-            catch
+            catch (Exception ex)
             {
                 licStatus = LicenseStatus.CRACKED;
             }

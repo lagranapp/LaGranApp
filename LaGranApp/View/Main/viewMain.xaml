@@ -27,19 +27,20 @@
             </Button>
         </mah:WindowCommands>
     </mah:MetroWindow.LeftWindowCommands>
-    <Grid>
+    <Grid>        
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>            
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <DockPanel Grid.Row="0">
-            <Menu ItemsSource="{Binding MenuItems}" IsMainMenu="True" Background="#3373F2" Foreground="White" Name="mnuMain">
+            <Menu ItemsSource="{Binding MenuItems}" IsMainMenu="True" Background="#80BA45" Foreground="White" Name="mnuMain">
                 <Menu.ItemContainerStyle>
                     <Style TargetType="{x:Type MenuItem}" BasedOn="{StaticResource {x:Type MenuItem}}" >
                         <Setter Property="Command" Value="{Binding DataContext.Command, RelativeSource={RelativeSource AncestorType={x:Type Window}, Mode=FindAncestor}}" />
                         <Setter Property="CommandParameter" Value="{Binding}" />
                         <Setter Property="Icon" Value="{Binding Icon}"/>
                         <Setter Property="Visibility" Value="{Binding Visible}"/>
+                        <Setter Property="Effect" Value="{DynamicResource MaterialDesignShadowDepth1}"/>
                     </Style>
                 </Menu.ItemContainerStyle>
                 <Menu.ItemTemplate>
@@ -52,7 +53,7 @@
         <dragablz:TabablzControl ItemsSource="{Binding Tabs}" SelectedItem="{Binding sTabs}" Grid.Row="1" ShowDefaultCloseButton="True" x:Name="tabMain">
             <dragablz:TabablzControl.HeaderItemTemplate>
                 <DataTemplate DataType="{x:Type LaGranApp:modelTabs}">
-                    <TextBlock Text="{Binding Name}" />
+                    <TextBlock Text="{Binding Name}" Effect="{DynamicResource MaterialDesignShadowDepth1}" />
                 </DataTemplate>
             </dragablz:TabablzControl.HeaderItemTemplate>
             <dragablz:TabablzControl.ContentTemplate>

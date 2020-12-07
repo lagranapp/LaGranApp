@@ -8,13 +8,13 @@ C:\Users\jgcue\source\repos\LaGranApp\LaGranAppUI\obj\Debug\netcoreapp3.1\
 LaGranAppUI
 none
 false
-TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
+TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 
-91708586604
+10475558510
 
-26-1943312677
-244-2142518284
-View\CRUDButtons\viewCRUDButtons.xaml;View\CRUDButtons\viewCRUDButtonsList.xaml;View\Modulos\Bitacora\viewBitacora.xaml;View\Modulos\MenuRoles\viewMenuRoles.xaml;View\Modulos\Usuarios\viewUsuarios.xaml;View\Modulos\Usuarios\viewUsuariosList.xaml;View\Pager\viewPagerButtons.xaml;View\Snackbar\viewSnackBar.xaml;View\Window\viewWindow.xaml;
+29-445390989
+247310848569
+View\CRUDButtons\viewCRUDButtons.xaml;View\CRUDButtons\viewCRUDButtonsList.xaml;View\Modulos\Bitacora\viewBitacora.xaml;View\Modulos\MenuRoles\viewMenuRoles.xaml;View\Modulos\QLicense\viewQLicenseActivation.xaml;View\Modulos\Usuarios\viewUsuarios.xaml;View\Modulos\Usuarios\viewUsuariosList.xaml;View\Pager\viewPagerButtons.xaml;View\Snackbar\viewSnackBar.xaml;View\Window\viewWindow.xaml;
 
 False
 

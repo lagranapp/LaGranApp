@@ -14,6 +14,9 @@
     <Compile Update="View\Modulos\MenuRoles\viewMenuRoles.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\Modulos\QLicense\viewQLicenseActivation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\Modulos\Usuarios\viewUsuarios.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -41,6 +44,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\Modulos\MenuRoles\viewMenuRoles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Modulos\QLicense\viewQLicenseActivation.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\Modulos\Usuarios\viewUsuarios.xaml">

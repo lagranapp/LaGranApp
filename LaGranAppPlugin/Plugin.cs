@@ -49,5 +49,19 @@ namespace LaGranAppPlugin
         {
             return null;
         }
+
+        public Stream Read(string strLicenseNameWithNameSpace)
+        {
+            try
+            {
+                System.Reflection.Assembly myAssembly = System.Reflection.Assembly.GetCallingAssembly();
+                var x= myAssembly.GetManifestResourceStream(strLicenseNameWithNameSpace);
+                return x;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }

@@ -6,8 +6,7 @@
         xmlns:local="clr-namespace:LaGranAppUI.View.Window"
         xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-        mc:Ignorable="d"
-        Title="viewWindow" Height="450" Width="800" ShowInTaskbar="False">
+        mc:Ignorable="d">
     <mah:MetroWindow.LeftWindowCommands>
         <mah:WindowCommands>
             <Button ToolTip="Open up the GitHub site">
@@ -15,7 +14,5 @@
             </Button>
         </mah:WindowCommands>
     </mah:MetroWindow.LeftWindowCommands>
-    <Grid>
-        
-    </Grid>
+    <Grid/>
 </mah:MetroWindow>

@@ -14,9 +14,8 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <ToolBarTray Margin="0,0,0,0" Grid.Column="0" Grid.Row="0">
-            <ToolBar  Style="{DynamicResource MaterialDesignToolBar}"   ClipToBounds="True" HorizontalAlignment="Stretch">
-
+        <ToolBarTray Margin="0,0,0,0" Grid.Column="0" Grid.Row="0" Background="Transparent" >
+            <ToolBar  Style="{DynamicResource MaterialDesignToolBar}"   ClipToBounds="True" HorizontalAlignment="Stretch" Background="Transparent">
                 <Button Focusable="True" x:Name="btnGuardar" ToolTip="Guardar" Style="{StaticResource MaterialDesignFlatAccentButton}" Command="{Binding CRUDCommand,RelativeSource={RelativeSource AncestorType=UserControl}}" CommandParameter="Guardar">
                     <StackPanel Orientation="Horizontal">
                         <materialDesign:PackIcon Kind="ContentSave" />

@@ -6,12 +6,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="LAGRANAPP.cer" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\LaGranAppPlugin\LaGranAppPlugin.csproj" />
     <ProjectReference Include="..\LaGranAppUI\LaGranAppUI.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="ViewModel\Mantenimiento\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="LAGRANAPP.cer">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CustomToolNamespace>AppDemo</CustomToolNamespace>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>

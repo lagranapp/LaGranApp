@@ -32,6 +32,8 @@ namespace LaGranAppUI.ViewModel.Modulos.Usuarios
         private List<lgaUsuarios> _Usuarios;
         private readonly IviewmodelUsuarios _vmMantUsuarios;
         private readonly ILogger<viewmodelUsuariosList> _logger;
+        
+        
 
         public List<lgaUsuarios> Usuarios
         {
@@ -47,7 +49,7 @@ namespace LaGranAppUI.ViewModel.Modulos.Usuarios
                 _BLLUsuarios = BLLUsuarios;
                 _vmMantUsuarios = vmMantUsuarios;
                 _Plugin = plugin;
-                _logger = logger;
+                _logger = logger;                
                 ms_FillGrid();
             }
             catch (Exception ex)
@@ -104,23 +106,22 @@ namespace LaGranAppUI.ViewModel.Modulos.Usuarios
             try
             {
                 viewUsuarios _view = new viewUsuarios();
-
-                viewWindow window = new viewWindow()
-                {
-                    Title = "Mantenimiento de usuarios",
-                    Content = _view,
-                    WindowStyle = WindowStyle.SingleBorderWindow,
-                    WindowStartupLocation = WindowStartupLocation.CenterOwner,
-                    SizeToContent = SizeToContent.Width,
-                    Height = 600,
-                    Width = 800,
-                    Owner = Window.GetWindow(Application.Current.MainWindow),
-                    MinWidth = 800,
-                    MinHeight=600,
-                    ShowInTaskbar=false
-                };
-                _vmMantUsuarios.Id = UsuarioId;
-                window.DataContext = _vmMantUsuarios;
+                 viewWindow window = new viewWindow()
+                 {
+                     Title = "Mantenimiento de usuarios",
+                     Content = _view,
+                     WindowStyle = WindowStyle.SingleBorderWindow,
+                     WindowStartupLocation = WindowStartupLocation.CenterOwner,
+                     SizeToContent = SizeToContent.Width,
+                     Height = 600,
+                     Width = 800,
+                     Owner = Window.GetWindow(Application.Current.MainWindow),
+                     MinWidth = 800,
+                     MinHeight=600,
+                     ShowInTaskbar=false
+                 };
+                 _vmMantUsuarios.Id = UsuarioId;
+                 window.DataContext = _vmMantUsuarios;                
                 window.ShowDialog();
                 ms_FillGrid();
                 OnPropertyChanged("Usuarios");

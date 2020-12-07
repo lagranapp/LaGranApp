@@ -25,9 +25,9 @@ using Microsoft.Extensions.Configuration;
 
 namespace AppDemo
 {
-    public class Main : IPlugin
+    public class Main : Plugin, IPlugin
     {
-        public string AppNombre
+        public new string AppNombre
         {
             get
             {
@@ -38,7 +38,7 @@ namespace AppDemo
 
             }
         }
-        public ObservableCollection<modelMenuItem> AppMenu
+        public new ObservableCollection<modelMenuItem> AppMenu
         {
             get
             {
@@ -99,12 +99,23 @@ namespace AppDemo
             }
         }
 
-        public bool AppReqMantUsuarios { get => true; set => throw new NotImplementedException(); }
-        public bool AppReqLicense { get => true; set => throw new NotImplementedException(); }
-        public Stream AppLicense { get => null; set => throw new NotImplementedException(); }
-        public string AppLicFileName { get => null; set => throw new NotImplementedException(); }
-        public IHost AppIHost { get; set; }
-        public IHostBuilder AppIHostBuilder
+        public new bool AppReqMantUsuarios { get => true; set => throw new NotImplementedException(); }
+       
+        public new Stream AppLicense
+        {
+            get
+            {
+                return Read("AppDemo.LAGRANAPP.cer");
+            }
+            set => throw new NotImplementedException(); }
+        public new bool AppReqLicense { get => true; set => throw new NotImplementedException(); }
+        public new string AppLicFileName { get
+            {
+                return "AppDemo.lic";
+            }
+            set => throw new NotImplementedException(); }
+        public new IHost AppIHost { get; set; }
+        public new IHostBuilder AppIHostBuilder
         {
             get
             {
@@ -130,13 +141,13 @@ namespace AppDemo
                 });
             }
         }
-        public Guid AppId { get => Guid.Parse("c558b62d-a9fe-40a3-aaf7-e49ab55135cd"); set => throw new NotImplementedException(); }
-        public string[] AppRoles { 
+        public new Guid AppId { get => Guid.Parse("c558b62d-a9fe-40a3-aaf7-e49ab55135cd"); set => throw new NotImplementedException(); }
+        public new string[] AppRoles { 
             get {
                 return new string[]{"Administrador", "Editor" };
             } set => throw new NotImplementedException(); }
 
-        public UserControl AppMenuAccion(int ID)
+        public new UserControl AppMenuAccion(int ID)
         {
             try
             {                

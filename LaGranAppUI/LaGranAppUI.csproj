@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\LaGranAppBLL\LaGranAppBLL.csproj" />
     <ProjectReference Include="..\LaGranAppCAS\LaGranAppCAS.csproj" />
+    <ProjectReference Include="..\QLicense\QLicense.csproj" />
   </ItemGroup>
 
 </Project>

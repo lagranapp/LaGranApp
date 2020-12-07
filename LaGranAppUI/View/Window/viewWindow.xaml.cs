@@ -17,12 +17,12 @@ namespace LaGranAppUI.View.Window
     /// <summary>
     /// Lógica de interacción para viewWindow.xaml
     /// </summary>
-    public partial class viewWindow : MetroWindow
+    public partial class viewWindow : MetroWindow, IviewWindow
     {
         public viewWindow()
         {
             InitializeComponent();
-            ThemeManager.Current.ChangeTheme(this, "Light.Amber");
+            ThemeManager.Current.ChangeTheme(this, "Light.Blue");
         }
     }
 }

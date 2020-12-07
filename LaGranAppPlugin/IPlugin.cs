@@ -25,6 +25,8 @@ namespace LaGranAppPlugin
         IHostBuilder AppIHostBuilder { get; set; }
         Guid AppId { get; set; }
         string[] AppRoles { get; set; }
-        
+        Stream Read(string strLicenseNameWithNameSpace);
+
+
     }
 }

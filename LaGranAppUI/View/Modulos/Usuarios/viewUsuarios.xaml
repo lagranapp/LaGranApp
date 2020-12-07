@@ -60,7 +60,7 @@
 
                     <GroupBox  Header="Roles del usuario"  Margin="16" Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="5">
 
-                        <DataGrid ItemsSource="{Binding UsuariosRoles}" IsReadOnly="True" AutoGenerateColumns="False" MaxHeight="400" VerticalScrollBarVisibility="Auto">
+                        <DataGrid ItemsSource="{Binding UsuariosRoles}" IsReadOnly="True" AutoGenerateColumns="False" MaxHeight="400" VerticalScrollBarVisibility="Auto" Background="Transparent">
                             <DataGrid.Columns>
                                 <DataGridTemplateColumn>
                                     <DataGridTemplateColumn.CellTemplate>
