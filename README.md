@@ -14,6 +14,12 @@ En LAGRANAPP se adiciona el modulo para activar la licencia. Este modulo le brin
 El modulo para generar la licencia es una solución aparte que pueden descargar desde esta dirección con la explicación correspondiente:
 https://www.codeproject.com/Articles/996001/A-Ready-To-Use-Software-Licensing-Solution-in-Csha
 
+-->Archivo batch para generar el certificado (Verifiquen la ruta de su herramienta makecert y actualicen de ser necesario):
+set /p producto="Introduzca el nombre del producto (sin espacios): "
+cd C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86
+makecert -pe -ss My -sr CurrentUser -$ commercial -n "CN=%producto%" -sky Signature
+certmgr.msc
+
 ********************************************************************************************************
 
 
