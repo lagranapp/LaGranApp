@@ -51,7 +51,7 @@ certmgr.msc
 </ul>
 <p>&nbsp;</p>
 <ul>
-<li>LAGRANAPPSLY: Proyecto de tipo ASP.NET Core Web Api. Capa de comunicación entre la capa de UI y la BLL (En construcción).</li>
+<li>LaGranAppSLY: Proyecto de tipo ASP.NET Core Web Api. Capa de comunicación entre la capa de UI y la BLL (En construcción).</li>
 </ul>
 
 <p>&nbsp;</p>
