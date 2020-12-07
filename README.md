@@ -4,6 +4,19 @@ Utiliza un modelo de plugin. Que nos permite crear nuestras aplicaciones como "p
 
 LAGRAN APP, incluye módulos que por lo general repetimos en cada aplicación, como por ejemplo la definición de usuarios y la seguridad. Esto nos evita invertir tiempo en desarrollar esto.
 
+******************************************************************************************************
+Adición del modulo de licenciamiento QLicense. Qlicense es un software de código abierto, que nos permite habilitar caracteristicas de licenciamiento en nuestros programas. 
+
+Basicamente QLicense tiene dos partes, un modulo para activar la licencia y otro módulo para generar la licencia.
+
+En LAGRANAPP se adiciona el modulo para activar la licencia. Este modulo le brinda una llave al cliente, que debe enviarnos para nosotros generarle la licencia con el modulo de generación de licencia.
+
+El modulo para generar la licencia es una solución aparte que pueden descargar desde esta dirección con la explicación correspondiente:
+https://www.codeproject.com/Articles/996001/A-Ready-To-Use-Software-Licensing-Solution-in-Csha
+
+********************************************************************************************************
+
+
 <blockquote>
 <h1>Estructura de los proyectos:</h1>
 </blockquote>
