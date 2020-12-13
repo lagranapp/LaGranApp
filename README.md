@@ -67,6 +67,10 @@ certmgr.msc
 
 [![LAGRAN APP INTRO](https://img.youtube.com/vi/JfFy2FNlkXU/0.jpg)](https://www.youtube.com/watch?v=JfFy2FNlkXU)
 
+<h1>Episodio 3 -Como utilizar las características de licenciamiento en nuestro plugin</h1><hr/>
+
+[![LAGRAN APP INTRO](https://img.youtube.com/vi/Z81X6DMYIho/0.jpg)](https://www.youtube.com/watch?v=Z81X6DMYIho)
+
 <h1>Facebook</h1><hr/>
 Siguenos en Facebook bajo el nombre: Lagran app
 <!--
